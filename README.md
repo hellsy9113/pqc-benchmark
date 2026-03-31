@@ -1,6 +1,6 @@
-# 🔐 Post-Quantum Cryptography Benchmark (Kyber & Dilithium vs RSA)
+#  Post-Quantum Cryptography Benchmark (Kyber & Dilithium vs RSA)
 
-## 📌 Overview
+##  Overview
 
 This project benchmarks classical cryptography (RSA) against post-quantum cryptographic algorithms:
 
@@ -11,7 +11,7 @@ The goal is to analyze performance, key sizes, and computational trade-offs in p
 
 ---
 
-## ⚙️ Features
+##  Features
 
 * Benchmarking over 100 iterations
 * Statistical analysis:
@@ -27,7 +27,7 @@ The goal is to analyze performance, key sizes, and computational trade-offs in p
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 * Kyber significantly outperforms RSA in key generation and encryption operations
 * Dilithium provides efficient verification but larger signatures
@@ -35,7 +35,7 @@ The goal is to analyze performance, key sizes, and computational trade-offs in p
 
 ---
 
-## 📈 Graphs
+## Graphs
 
 ### Performance Comparison
 
@@ -47,7 +47,7 @@ The goal is to analyze performance, key sizes, and computational trade-offs in p
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 python3 -m venv pqc-env
@@ -58,7 +58,7 @@ python script.py
 
 ---
 
-## 🧠 Key Insights
+##  Key Insights
 
 * PQC is faster than RSA for key operations
 * Trade-off: larger keys and signatures
@@ -66,7 +66,7 @@ python script.py
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * Python
 * liboqs (Open Quantum Safe)
@@ -75,7 +75,7 @@ python script.py
 
 ---
 
-## 📚 Future Work
+##  Future Work
 
 * Integrate AES with Kyber (hybrid encryption)
 * Build secure messaging prototype
